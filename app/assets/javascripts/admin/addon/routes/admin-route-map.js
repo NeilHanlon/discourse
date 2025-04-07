@@ -227,6 +227,11 @@ export default function () {
             });
           }
         );
+        this.route("content", function () {
+          this.route("settings", {
+            path: "/",
+          });
+        });
         this.route("localization", function () {
           this.route("settings", {
             path: "/",

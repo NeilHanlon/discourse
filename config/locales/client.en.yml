@@ -5391,6 +5391,10 @@ en:
         badges:
           title: "Badges"
           header_description: "Badges reward users for their activities, contributions, and achievements to recognize, validate, and encourage positive behavior and engagement within the community"
+        content:
+          title: "Content"
+          header_description: "Configure how your topics and posts are managed, and customize the content creation experience for your members"
+          keywords: "topics|posts|categories|tags"
         permalinks:
           title: "Permalinks"
           header_description: "Redirections to apply for URLs not known by the forum"

@@ -2862,6 +2862,7 @@ uncategorized:
   suppress_uncategorized_badge:
     client: true
     default: true
+    area: "content"
 
   header_dropdown_category_count:
     client: true
@@ -3376,6 +3377,7 @@ tags:
     client: true
     default: true
     refresh: true
+    area: "content"
   tag_style:
     client: true
     type: enum
@@ -3385,19 +3387,24 @@ tags:
       - bullet
       - box
     preview: '<div class="discourse-tags"><span class="discourse-tag {{value}}">tag1</span><span class="discourse-tag {{value}}">tag2</span></div>'
+    area: "content"
   max_tags_per_topic:
     default: 5
     client: true
+    area: "content"
   enable_max_tags_per_email_subject:
     default: false
     client: true
+    area: "content"
   max_tags_per_email_subject:
     default: 5
     client: true
     min: 0
+    area: "content"
   max_tag_length:
     default: 20
     client: true
+    area: "content"
   min_trust_to_create_tag:
     default: "3"
     type: enum
@@ -3427,18 +3434,22 @@ tags:
     client: true
     default: 5
     min: 1
+    area: "content"
   max_tags_in_filter_list:
     client: true
     default: 30
     min: 1
     refresh: true
+    area: "content"
   tags_sort_alphabetically:
     client: true
     default: false
     refresh: true
+    area: "content"
   tags_listed_by_group:
     client: true
     default: false
+    area: "content"
   pm_tags_allowed_for_groups:
     type: group_list
     list_type: compact
@@ -3449,22 +3460,28 @@ tags:
   suppress_overlapping_tags_in_list:
     default: false
     client: true
+    area: "content"
   remove_muted_tags_from_latest:
     client: true
     type: enum
     default: always
     enum: RemoveMutedTagsFromLatestSiteSetting
+    area: "content"
   watched_precedence_over_muted:
     client: true
     default: false
+    area: "content"
 
   force_lowercase_tags:
     default: true
     client: true
+    area: "content"
   create_post_for_category_and_tag_changes:
     default: false
+    area: "content"
   automatically_clean_unused_tags:
     default: false
+    area: "content"
 
 dashboard:
   dashboard_hidden_reports:
